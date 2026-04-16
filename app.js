@@ -6,7 +6,7 @@ const initDatabase = require("./db/init");
 
 const app = express();
 
-// Allow other student apps to call your API
+// Allow other student apps to call your API.
 app.use(cors());
 
 app.use(express.json());
